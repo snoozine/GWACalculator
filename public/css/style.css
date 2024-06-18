@@ -1,0 +1,780 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+.home-div {
+    height: 100vh;
+}
+.navbar {
+    padding: 0px 100px;
+    background-color: #3a3150;
+    justify-content: space-evenly;
+    background-image: url("/image/navimg.svg");
+    object-fit: cover;
+}
+.navbar2 {
+    width: 100%;
+    padding: 0px 50px;
+}
+.navbar-brand span {
+    font-weight: 400;
+    margin-left: 15px;
+    font-size: 22px;
+}
+.sub-div {
+    margin-top: 0px;
+}
+.navbrand {
+    height: 40px;
+    margin-top: 0px;
+}
+.navbar-container {
+    width: 100%;
+    height: 30px;
+}
+.nav-link {
+    font-size: 18px;
+}
+.yellow-line {
+    height: 5px;
+    background-color: #2f293f;
+}
+
+.greetings {
+    font-size: 20px;
+    padding: 20px 20px;
+}
+.greetingss {
+    font-size: 20px;
+    padding: 20px 0px;
+    font-weight: 700;
+}
+.user-greetings {
+    color: #3a3150;
+    font-size: 20px;
+    padding: 20px 0px;
+    font-weight: 700;
+}
+.homepage .user {
+    color: #000000;
+}
+.top {
+    display: flex;
+    padding: 10px 0px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.342);
+    margin-bottom: 30px;
+}
+.top ion-icon {
+    font-size: 40px;
+    color: #3a3150;
+}
+.top h1 {
+    color: black;
+    margin-left: 20px;
+    font-size: 22px;
+    margin-top: 18px;
+    font-weight: 600;
+}
+.top a {
+    color: #3a3150;
+    font-size: 22px;
+}
+.top span {
+    color: #000000;
+    margin-left: 5px;
+    font-size: 17px;
+    margin-top: 7px;
+}
+
+.compute-div .top {
+    margin-top: 70px;
+    display: flex;
+    padding: 10px 0px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.342);
+    margin-bottom: 30px;
+}
+.compute-div .top ion-icon {
+    font-size: 40px;
+    color: #3a3150;
+}
+.compute-div .top h1 {
+    color: black;
+    margin-left: 20px;
+    font-size: 22px;
+    margin-top: 18px;
+    font-weight: 600;
+}
+.compute-div .top a {
+    color: #3a3150;
+    font-size: 18px;
+}
+.compute-div .top span {
+    color: #000000;
+    margin-left: 5px;
+    font-size: 17px;
+    margin-top: 7px;
+}
+.homemenu-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.homemenu-box {
+    width: 350px;
+    padding: 20px 20px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+    cursor: pointer;
+    background-color: white;
+    transition: ease-in-out 0.1s;
+}
+.homemenu-box:hover {
+    background-color: #d4edff;
+    transform: scale(1.05);
+}
+.homemenu-box:hover h1 {
+    text-decoration: underline;
+    color: black;
+}
+.homemenu-box img {
+    width: 180px;
+    text-align: center;
+    height: 128px;
+}
+.homemenu-box h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.profile-body {
+    margin-top: 50px;
+}
+.info-container {
+    padding: 0px 100px;
+}
+.profile-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profile-container .name-div {
+    padding-top: 70px;
+}
+
+.info-container .inner {
+    margin-top: 60px;
+    padding: 50px 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(201, 201, 201);
+    background-color: #f8fafc;
+}
+.setup-div {
+    margin-top: 50px;
+}
+.add-module-div label {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+.add-module-div select,
+.add-module-div input {
+    margin-top: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(189, 189, 189);
+}
+.compute-div .flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.compute-div .flex-box .box {
+    margin-right: 32px;
+    margin-bottom: 20px;
+    width: 400px;
+
+    text-decoration: none;
+    transition: ease-in-out 0.1s;
+}
+.compute-div .flex-box a {
+    text-decoration: none;
+    color: black;
+}
+.compute-div .flex-box .box:hover {
+    background-color: #d4edff;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.compute-div .flex-box .box:hover h6 {
+    text-decoration: underline;
+    color: black;
+}
+.compute-div .flex-box .box img {
+    margin: 0px auto;
+    width: 200px;
+    height: 200px;
+}
+.compute-div .flex-box .box h6 {
+    font-size: 22px;
+    margin: 20px 0px;
+    color: rgb(75, 75, 75);
+}
+.compute-div h2 {
+    color: #3a3150;
+    margin-top: 20px;
+}
+.computation-div {
+    margin-top: 40px;
+}
+.computation-div .info {
+    margin-top: 30px;
+}
+.computation-div .info-div h3 {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.computation-div .info-div h2 {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.computation-div .submitform {
+    margin-top: 50px;
+}
+
+.computation-div .submitform h6 {
+    font-size: 20px;
+}
+.computation-div .submitform h6 ion-icon {
+    font-size: 30px;
+    margin-right: 15px;
+    margin-bottom: -8px;
+}
+.computation-div .submitform input {
+    border: 1px solid rgb(223, 223, 223);
+    font-size: 14px;
+}
+.computation-div .submitform label {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.add-grades-btn button {
+    outline: 0;
+    border: 0;
+    margin-top: 30px;
+    width: 300px;
+    text-align: center;
+    height: 50px;
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+.add-grades-btn button div {
+    transform: translateY(0px);
+    width: 100%;
+}
+
+.add-grades-btn button,
+.add-grades-btn button div {
+    transition: 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.add-grades-btn button div span {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    padding: 0.75em 1.125em;
+}
+
+.add-grades-btn button div:nth-child(1) {
+    background-color: #3a3150;
+}
+
+.add-grades-btn button div:nth-child(2) {
+    background-color: #d2c6d4;
+}
+
+.add-grades-btn button:hover div {
+    transform: translateY(-50px);
+}
+
+.add-grades-btn button p {
+    font-size: 17px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+.add-grades-btn button:active {
+    transform: scale(0.95);
+}
+.grades-table .body1 td:last-child,
+.grades-table thead th:last-child {
+    width: 100px;
+    text-align: center;
+}
+.grades-table {
+    font-size: 15px;
+    margin-top: 7px;
+}
+.grades-table .body1 td:nth-child(3),
+.grades-table thead th:nth-child(3),
+.grades-table .body1 td:nth-child(2),
+.grades-table thead th:nth-child(2) {
+    width: 200px;
+    text-align: center;
+}
+.grades-table .body2 td:last-child {
+    text-align: center;
+}
+.grades-table .body2 td {
+    font-weight: 600;
+}
+.grades-table thead th {
+    background-color: #3a3150;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+}
+.edit-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    margin-top: 10px;
+}
+.edit-buttons button {
+    width: 100%;
+    text-align: start;
+    background: #3a3150;
+    margin-top: 10px;
+    color: rgb(233, 233, 233);
+    font-size: 13px;
+}
+
+.display-grades-div {
+    margin-top: 30px;
+}
+.display-grades-div h4 {
+    font-size: 18px;
+}
+.display-grades-div ion-icon {
+    margin-right: 10px;
+    margin-bottom: -2px;
+}
+.home-button {
+    text-decoration: none;
+    color: #3a3150;
+}
+.home-button ion-icon {
+    font-size: 30px;
+}
+.add-finals-modal input {
+    margin-bottom: 20px;
+}
+.add-finals-modal .grade-input {
+    text-align: center;
+}
+.name-div a {
+    background-color: #2f293f;
+    color: white;
+    text-align: center;
+    width: 300px;
+}
+
+.edit-profile-btn ion-icon {
+    font-size: 20px;
+    margin-bottom: -4px;
+}
+.show-target-div {
+    margin-left: 10px;
+}
+.show-target-div h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.show-target-div h4 {
+    font-size: 15px;
+}
+.show-target-div h5 {
+    font-size: 20px;
+}
+.delete-module-btn {
+    background-color: #3a3150;
+    color: white;
+}
+.terms-year-div {
+    margin-top: 20px;
+}
+.terms-year-div h5 {
+    font-size: 14px;
+}
+.add-traget-gwa-table tr th {
+    background-color: #3a3150;
+    color: white;
+    border: 1px solid #dee2e6;
+    font-size: 15px;
+    font-weight: 500;
+}
+.add-traget-gwa-table tr td {
+    vertical-align: middle;
+}
+.add-traget-gwa-table tr td:nth-child(4),
+.add-traget-gwa-table tr td:nth-child(5),
+.add-traget-gwa-table tr td:nth-child(3) {
+    width: 150px;
+    text-align: center;
+}
+.add-traget-gwa-table tr td:nth-child(3) {
+    font-weight: 700;
+}
+
+.add-traget-gwa-table .edit {
+    background-color: #127c54;
+    color: white;
+    width: 70%;
+    text-align: center;
+}
+
+.add-traget-gwa-table .delete {
+    background-color: #8b0001;
+    color: white;
+    width: 70%;
+    text-align: center;
+}
+.add-traget-gwa-table .block {
+    display: none;
+    border: 1px solid #3a3150;
+}
+.add-gwa-button {
+    margin: 20px 0px;
+}
+.add-gwa-button a {
+    background-color: #3a3150;
+    color: white;
+    font-weight: 500;
+    text-align: start;
+}
+.gwa-error-alert {
+    background-color: #3a3150;
+    color: white;
+    font-style: italic;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.reco-table {
+    margin-top: 40px;
+}
+.reco-table tr td:last-child {
+    width: 100px;
+    text-align: center;
+    align-items: middle;
+    font-weight: 700;
+}
+.reco-table tbody {
+    border-top: 5px solid #3a3150;
+}
+.computation-back-btn button {
+    background-color: #3a3150;
+    color: white;
+    margin-top: 20px;
+    width: 50%;
+}
+.delete-profile-modal {
+    padding: 50px;
+}
+.delete-profile-modal .buttons {
+    display: flex;
+    margin: 30px 0px;
+    justify-content: space-around;
+}
+.delete-profile-modal .buttons form {
+    width: 50%;
+}
+.delete-profile-modal .buttons button {
+    background-color: #3a3150;
+    color: white;
+    width: 50%;
+}
+.delete-profile-img {
+    width: 100%;
+}
+.computation-delete-btn {
+    display: flex;
+    justify-content: end;
+}
+
+.computation-delete-btn button {
+    background-color: #3a3150;
+    color: white;
+    text-align: start;
+    width: 100%;
+    font-size: 12px;
+}
+.computation-delete-btn button ion-icon {
+    margin-bottom: -1px;
+    margin-right: 10px;
+}
+.edit-grades-modal {
+    font-weight: 500;
+}
+.edit-grade-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.edit-grade-buttons button {
+    width: 50%;
+    background-color: #3a3150;
+    color: white;
+}
+.deactivate-account-btn button {
+    background-color: #3a3150;
+    color: white;
+}
+.setup-profile-btn a {
+    color: black;
+    font-size: 20px;
+}
+.setup-profile-btn ion-icon {
+    margin-right: 5px;
+    margin-bottom: -3px;
+}
+.error-container {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.error-container img {
+    width: 50%;
+}
+.error-container p {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #3a3150;
+}
+.error-container a {
+    font-size: 17px;
+}
+
+
+@media screen and (max-width: 760px) {
+    .navbar {
+        padding: 0px 0px;
+    }
+    .navbar2 {
+        padding: 0px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar-container {
+        display: flex;
+        justify-content: space-between;
+        height: fit-content;
+        align-items: center;
+        padding: 0px 30px;
+        height: 50px;
+    }
+    .navbar-container button {
+        height: 50px;
+    }
+    .navbar-brand {
+        display: none;
+    }
+    .nav-item {
+        padding: 0px 32px;
+    }
+    .compute-div .flex-box {
+        justify-content: space-evenly;
+    }
+    .computation-div {
+        margin: 20px 20px;
+        margin-bottom: 20px;
+    }
+    .compute-div .flex-box .box {
+        margin-right: 0px;
+    }
+    .compute-div .top {
+        margin-top: 20px;
+    }
+    .compute-div .top a {
+        font-size: 14px;
+    }
+    .compute-div .top h1 {
+        font-size: 17px;
+    }
+    .delete-profile-img {
+        width: 100%;
+    }
+    .computation-div .info {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .computation-div .info-div h3 {
+        font-size: 17px;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+    .computation-div .info-div h2 {
+        font-size: 13px;
+        text-transform: capitalize;
+    }
+    .computation-delete-btn {
+        justify-content: start;
+    }
+    .computation-delete-btn button {
+        margin-top: 10px;
+    }
+    .computation-div .submitform h6 {
+        font-size: 15px;
+    }
+    .computation-div .submitform {
+        margin-top: 20px;
+    }
+    .computation-div .submitform h6 ion-icon {
+        font-size: 25px;
+        margin-right: 15px;
+        margin-bottom: -8px;
+    }
+    .computation-div .submitform .last-input {
+        border-bottom: 1px solid black;
+        padding-bottom: 20px;
+    }
+    .computation-delete-btn {
+        display: block;
+    }
+    .computation-delete-btn button {
+        width: 180px;
+    }
+    .add-module-div label {
+        margin-top: 0px;
+    }
+    .reco-table tr td {
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .add-gwa-container {
+        width: 100%;
+        overflow-y: auto;
+    }
+    .add-gwa-container table {
+        width: 100%;
+    }
+    .add-traget-gwa-table tr th {
+        font-size: 13px;
+    }
+    .add-traget-gwa-table tr td {
+        font-size: 12px;
+    }
+
+    .add-traget-gwa-table tr td:first-child,
+    .add-traget-gwa-table tr td:nth-child(2),
+    .add-traget-gwa-table tr td:nth-child(3) {
+        width: 100px;
+    }
+
+    .add-traget-gwa-table tr th:nth-child(4),
+    .add-traget-gwa-table tr td:nth-child(4),
+    .add-traget-gwa-table tr td:nth-child(5) {
+        text-align: center;
+        width: 20px;
+    }
+    .add-traget-gwa-table .edit {
+        background-color: #127c54;
+        color: white;
+        width: 50px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .add-traget-gwa-table .delete {
+        background-color: #8b0001;
+        color: white;
+        width: fit-content;
+        margin: 0;
+        padding: 0px 5px;
+        text-align: center;
+    }
+    .add-traget-gwa-table .hidden {
+        display: none;
+    }
+    .add-traget-gwa-table .block {
+        display: block;
+    }
+    .edit-grades-modal .last-row {
+        border-bottom: 1px solid #2f293f;
+        margin-bottom: 10px;
+    }
+    .edit-grade-buttons {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .edit-grade-buttons button {
+        width: 100px;
+        background-color: #3a3150;
+        color: white;
+    }
+    .name-div a {
+        width: 100%;
+    }
+    .delete-profile-modal {
+        padding: 0;
+    }
+    .delete-profile-modal .buttons {
+        margin: 10px 0px;
+    }
+    .delete-profile-modal .buttons form {
+        width: 100%;
+    }
+    .delete-profile-modal .buttons button {
+        background-color: #3a3150;
+        color: white;
+        width: 50%;
+    }
+    .setup-profile-btn a {
+        color: black;
+        font-size: 17px;
+    }
+    .error-container img {
+        width: 100%;
+    }
+    .error-container {
+        width: 100%;
+        padding: 30px;
+    }
+    .error-container p {
+        font-size: 20px;
+        margin-top: 20px;
+        color: #3a3150;
+    }
+    .error-container a {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .homemenu-row {
+        justify-content: space-evenly;
+    }
+    .compute-div .flex-box {
+        justify-content: space-evenly;
+    }
+    .compute-div .flex-box .box {
+        margin-right: 0px;
+    }
+}
