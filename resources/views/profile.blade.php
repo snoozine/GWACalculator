@@ -102,7 +102,7 @@
     <div class="container text-center p-5">
 
         <img src="{{url('/image/setup.svg')}}" width="320px">
-        <h1 class="p-3">SETUP YOUR PROFILE FRIST!</h1>
+        <h1 class="p-3">SETUP YOUR PROFILE FIRST!</h1>
         <a class="btn text-white" href="{{route('setupProfile')}}" style="background-color: #3a3150;">SET UP PROFILE</a>
 
     </div>

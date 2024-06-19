@@ -134,7 +134,7 @@
                         </button>
                     </div>
                 </form><br>
-                <p align="center">i don't have any account <a href="{{ route('register') }}"
+                <p align="center">Don't have an account? <a href="{{ route('register') }}"
                         style="font-weight:600;text-decoration:none; color: #9682b9;">Register Here</a></p>
             </div>
         </div>

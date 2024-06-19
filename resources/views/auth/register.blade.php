@@ -77,7 +77,7 @@
 
                                     </div>
                                 </form>
-                                <p class="text-center">i have already account <a href="{{ route('login') }}"
+                                <p class="text-center">Already have an account? <a href="{{ route('login') }}"
                                         style="font-weight:600; text-decoration:none; color: #9682b9;">Login</a>
                                 </p>
                             </div>

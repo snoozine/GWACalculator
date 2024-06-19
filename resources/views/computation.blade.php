@@ -92,7 +92,7 @@
                     </div>
                     <div>
                         <span>
-                            <p>SUMBIT</p>
+                            <p>SUBMIT</p>
                         </span>
                     </div>
                 </button>
@@ -166,7 +166,7 @@
                     <td>{{ $totalunits }}</td>
                 </tr>
                 <tr>
-                    <td colspan="3">General weighted average (GWA)</td>
+                    <td colspan="3">General Weighted Average (GWA)</td>
                     <td>{{$computation->total}}</td>
                 </tr>
             </tbody>
@@ -202,11 +202,11 @@
         <div class="text-center">
 
             @if($roundedGrade)
-            <h5>Grade Reccomendation</h5>
+            <h5>Grade Recommendation</h5>
             <p>{{$roundedGrade}} {{$text}}</p>
             @else
             @if($target->percentage < 75 || $target->percentage == 0)
-                <h2>YOU FAILED, NICE TRY </h2>
+                <h2>KEEP WORKING HARD! YOU'LL GET THERE SOON! </h2>
                 @else
                 <h2>CONGRATULATIONS FOR PASSING!</h2>
                 @endif

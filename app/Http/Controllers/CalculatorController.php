@@ -109,7 +109,7 @@ class CalculatorController extends Controller
                     {
 
                         if ($neededGrade > 4) {
-                            return "Even you got 4 in remainig subject you can't reach you target GWA for ";
+                            return "Even if you got a grade of 4.0 on the remaining subject/s you can't reach your target GWA for ";
                         }
                         foreach ($possibleGrades as $grade) {
                             if ($grade >= $neededGrade) {
