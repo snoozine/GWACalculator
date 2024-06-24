@@ -188,7 +188,7 @@
                         @if($target->percentage > 100)
                         <h5 class="text-success">100%</h5>
 
-                        @elseif($target->percentage > 75 && $target->percentage === 100)
+                        @elseif($target->percentage > 75)
                         <h5 class="text-success">{{$target->percentage}}%</h5>
                         @elseif($target->percentage >= 50)
                         <h5 class="text-warning">{{$target->percentage}}%</h5>

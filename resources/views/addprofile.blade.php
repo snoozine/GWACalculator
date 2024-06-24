@@ -46,10 +46,7 @@
                         </div>
                         <div class="col-lg-4 col-md-12 col-sm-12">Gender:</div>
                         <div class="col-lg-8 col-md-12 col-sm-12">
-                            <select name="gender" id="" class="form-control" required>
-                                <option value="Male">Male</option>
-                                <option value="Female">Female</option>
-                            </select>
+                            <input name="gender" id="" class="form-control" required />
                             <div style="padding: 10px"></div>
                         </div>
 
@@ -84,7 +81,7 @@
                         </div>
                         <div class="col-lg-4 col-md-12 col-sm-12">Age:</div>
                         <div class="col-lg-8 col-md-12 col-sm-12">
-                            <input name="age" class="form-control" />
+                            <input name="age" class="form-control" required />
                             <div style="padding: 10px"></div>
                         </div>
 

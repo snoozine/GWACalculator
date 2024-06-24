@@ -4,7 +4,7 @@
         <div class=" modal-content">
             <div class="modal-body text-center">
                 <img src="{{url('image/delete.svg')}}" class="delete-profile-img">
-                <h2 style="margin-top: 50px" class="text-center">Are you sure you want to deactivate your account?</h2>
+                <h2 style="margin-top: 50px" class="text-center">Are you sure you want to delete your account?</h2>
                 <div class="buttons text-center">
                     <form action="">
                         <button type="button" class="btn" data-bs-dismiss="modal">Close</button>

@@ -78,7 +78,7 @@ class ProfileController extends Controller
         Storage::disk('public')->delete($tenant->image);
         User::where('id', $id)->delete();
         Profile::where('user_id', $id)->delete();
-        return redirect()->route('logout');
+        return view('logout');
     }
 
 

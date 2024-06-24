@@ -133,7 +133,10 @@ class CalculatorController extends Controller
 
     public function submitComputation(Request $request)
     {
-
+        $request->validate([
+            'grades' => 'required|array', 
+            'grades.*' => 'numeric|max:5', 
+        ]);
         $uid =  Auth::id();
         $subjects = $request->input('subjects');
         $grades = $request->input('grades');

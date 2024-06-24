@@ -95,7 +95,7 @@
         </div>
     </div>
     <div class="deactivate-account-btn  text-center p-5">
-        <button class=" btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">DEACTIVATE
+        <button class=" btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">DELETE
             ACCOUNT</button>
     </div>
     @else
