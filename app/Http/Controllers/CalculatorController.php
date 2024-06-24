@@ -134,8 +134,10 @@ class CalculatorController extends Controller
     public function submitComputation(Request $request)
     {
         $request->validate([
-            'grades' => 'required|array', 
-            'grades.*' => 'numeric|max:5', 
+            'grades' => 'required|array',
+            'grades.*' => 'nullable|numeric|lt:6',
+        ], [
+            'grades.*.lt' => '',
         ]);
         $uid =  Auth::id();
         $subjects = $request->input('subjects');
@@ -171,6 +173,12 @@ class CalculatorController extends Controller
 
     public function submitEdit(Request $request)
     {
+        $request->validate([
+            'final' => 'required|array',
+            'final.*' => 'nullable|numeric|lt:6',
+        ], [
+            'final.*.lt' => '',
+        ]);
         $grades = $request->input('final');
         $total = array_sum($grades);
         $count = count($grades);
@@ -187,8 +195,13 @@ class CalculatorController extends Controller
 
     public function submitgrades(Request $request)
     {
+        $request->validate([
+            'grades' => 'required|array',
+            'grades.*' => 'nullable|numeric|lt:6',
+        ], [
+            'grades.*.lt' => '',
+        ]);
         $grades = $request->input('grades');
-        $finals = $request->input('final');
 
         $finalscheck = Computation::where('id', $request->id)->first();
         if ($finalscheck->finals == NULL) {
@@ -203,6 +216,13 @@ class CalculatorController extends Controller
                 'total' => $average,
             ]);
         } else {
+            $request->validate([
+                'final' => 'required|array',
+                'final.*' => 'nullable|numeric|lt:6',
+            ], [
+                'final.*.lt' => '',
+            ]);
+            $finals = $request->input('final');
             $total = array_sum($finals);
             $count = count($finals);
             $average = $count > 0 ? round($total / $count, 2) : 0;

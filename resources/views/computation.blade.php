@@ -83,6 +83,12 @@
                     <br>
                     @endfor
             </div>
+            @if ($errors->any())
+            <div>
+                <div class=" gwa-error-alert mt-5" role="alert">* Grade cannot be higher than 5.
+                </div>
+            </div>
+            @endif
             <div class="add-grades-btn text-center">
                 <button type="submit">
                     <div>
@@ -214,6 +220,12 @@
         </div>
         @endif
     </div>
+    @if ($errors->any())
+            <div>
+                <div class=" gwa-error-alert mt-5" role="alert">* Grade cannot be higher than 5.
+                </div>
+            </div>
+    @endif
     <div class="text-center computation-back-btn">
         <button class="btn" onclick="history.back()">BACK</button>
     </div>
