@@ -46,10 +46,7 @@
                         </div>
                         <div class="col-lg-4 col-md-12 col-sm-12">Gender:</div>
                         <div class="col-lg-8 col-md-12 col-sm-12">
-                            <select name="gender" id="" class="form-control" required>
-                                <option value="Male">Male</option>
-                                <option value="Female">Female</option>
-                            </select>
+                            <input name="gender" id="" class="form-control" required value="{{$profile->gender}}" />
                             <div style="padding: 10px"></div>
                         </div>
 
