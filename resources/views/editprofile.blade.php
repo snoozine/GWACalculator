@@ -13,7 +13,7 @@
                 </div>
                 <div class="name-div col-lg-8 col-md-8 col-sm-12">
                     <h2>{{ Auth::user()->name }}</h2>
-                    <input type="file" name="image" class="form-control" required>
+                    <input type="file" name="image" class="form-control" required />
                 </div>
             </div>
             <hr />
